@@ -1,0 +1,128 @@
+/* Resetando alguns estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o estilo do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #5cb85c;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* Seção para adicionar nova tarefa */
+#nova-tarefa {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#nova-tarefa h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+#tarefaInput {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#adicionarTarefa {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#adicionarTarefa:hover {
+    background-color: #4cae4c;
+}
+
+/* Seções de tarefas pendentes e concluídas */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Listas de tarefas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    flex: 1;
+}
+
+button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+}
